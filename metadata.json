@@ -1,0 +1,6 @@
+{
+  "name": "PhysioWorld Clinic",
+  "description": "A premium physiotherapy clinic website for PhysioWorld.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -18,13 +18,13 @@ export default function About() {
               </div>
             </Reveal>
             
-            <Reveal delay={0.5} className="absolute -bottom-10 -right-4 lg:-right-12 z-20">
-              <div className="bg-white/70 backdrop-blur-3xl p-8 rounded-[2rem] shadow-[0_16px_40px_rgba(0,0,0,0.08)] border border-white max-w-sm">
-                <div className="flex gap-1 text-yellow-400 mb-4">
-                  {[...Array(5)].map((_, i) => <Star key={i} size={20} fill="currentColor" />)}
+            <Reveal delay={0.5} className="absolute -bottom-8 right-2 sm:-bottom-10 sm:-right-4 lg:-right-12 z-20">
+              <div className="bg-white/70 backdrop-blur-3xl p-6 sm:p-8 rounded-[1.5rem] sm:rounded-[2rem] shadow-[0_16px_40px_rgba(0,0,0,0.08)] border border-white max-w-[280px] sm:max-w-sm">
+                <div className="flex gap-1 text-yellow-400 mb-3 sm:mb-4">
+                  {[...Array(5)].map((_, i) => <Star key={i} size={16} className="sm:w-5 sm:h-5" fill="currentColor" />)}
                 </div>
-                <p className="italic text-gray-800 text-lg mb-4 leading-relaxed">"Good place for physiotherapy treatment. Very friendly and professional."</p>
-                <p className="font-bold text-brand-blue text-xs uppercase tracking-widest">— Recent Patient</p>
+                <p className="italic text-gray-800 text-sm sm:text-lg mb-3 sm:mb-4 leading-relaxed">"Good place for physiotherapy treatment. Very friendly and professional."</p>
+                <p className="font-bold text-brand-blue text-[10px] sm:text-xs uppercase tracking-widest">— Recent Patient</p>
               </div>
             </Reveal>
           </div>
